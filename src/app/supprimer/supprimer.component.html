@@ -1,0 +1,8 @@
+<form >
+    <h1 mat-dialog-title> Suppression </h1>
+    <h3 mat-dialog-title> Voulez vous vraiment supprimé {{personne.prenom}} {{personne.nom}} </h3>
+    <div mat-dialog-actions>
+    <button mat-raised-button (click)="supprimer()"  color="primary">Supprimer</button>
+    <a (click)="closepopup()" mat-raised-button color="warn">Fermer</a>
+    </div>
+    </form>
